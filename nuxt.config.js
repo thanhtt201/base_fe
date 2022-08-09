@@ -18,7 +18,10 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    { src: "~/mixins/service.js" },
+    { src: "~/mixins/getJwt.js" },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

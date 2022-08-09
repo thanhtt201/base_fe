@@ -1,10 +1,10 @@
-export const state = ({
-    token: null
-})
+// export const state = ({
+//     token: null
+// })
 
-export const getters = {
-    getUsers(state) {
-        state.token = 'trần tiến thành'
-        return state.token
-    }
-}
+// export const getters = {
+//     getUsers(state) {
+//         state.token = 'trần tiến thành'
+//         return state.token
+//     }
+// }
